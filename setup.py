@@ -11,5 +11,5 @@ setup(
     python_requires='>=3.8',
     packages=find_packages(),
     install_requires=open("requirements.txt").read().splitlines(),
-    entry_points={"console_scripts": ["cliweb=CLIWeb.cliweb:main"]}
+    entry_points={"console_scripts": ["cliweb=CLIWeb.cliweb:run"]}
 )
